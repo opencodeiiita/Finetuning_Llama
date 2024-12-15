@@ -15,65 +15,8 @@ You are tasked with fine-tuning the LLaMA2-7B model on a dataset related to Indi
 
 - Use Google Colab or similar GPU-enabled environments for training and testing the model. <br>
 
-## Procedure
 
-### Task 1: Setup
 
-- Check GPU connection to ensure compatibility.
-
-- Import required libraries for processing and training.
-
-- Validate the dataset from the Hugging Face dataset hub.
-
-### Task 2: Data Preprocessing
-
-- Reformat the dataset to match the LLaMA2 input format.
-
-- Push the preprocessed dataset to the Hugging Face hub for collaborative access.
-
-### Task 3: Model Definition
-
-- Define the Llama2-7B-chat-hf model.
-
-- Load the preprocessed dataset.
-
-- Implement supervised fine-tuning with 4-bit quantization to minimize memory usage.
-
-### Task 4: Training Preparation
-
-- Split the dataset into training and validation sets.
-
-- Configure the tokenizer and model with QLoRA settings.
-
-- Check GPU compatibility.
-
-- Load the model using AutoModelForCausalLM and LLaMA tokenizer.
-
-- Set up LoRA configuration for parameter-efficient training.
-
-### Task 5: Training
-
-- Set the training parameters and fine-tuning configurations.
-
-- Train the model on the dataset.
-
-- Evaluate the model’s performance after training.
-
-### Task 6: Evaluation
-
-- Use TensorBoard to visualize training progress and metrics.
-
-- Evaluate the model using a text generation pipeline on example legal prompts.
-
-### Task 7: Deployment
-
-- Save the fine-tuned model.
-
-- Push the model to the Hugging Face hub for public use.
-
-### Bonus Task
-
-- Integrate the fine-tuned model with a React-based frontend and deploy it for interactive usage. 😉 <br>
 
 - Help
 
